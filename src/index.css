@@ -33,13 +33,12 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 375px;
 }
 
 .titles {
   text-align: center;
   color: var(--very-dark-blue);
-  margin-bottom: 50px;
+
 }
 
 .title-a {
@@ -54,9 +53,9 @@ code {
 
 .card {
   padding: 20px 30px;
+  width: 325px;
   height: 225px;
   background-color: white;
-  margin-bottom: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 15px -8px;
 }
@@ -79,8 +78,45 @@ code {
   margin:0;
 }
 
+.card-info {
+  width: 300px;
+}
+
 .card-img {
   position: relative;
   left: 40%;
   top: 15%
+}
+
+@media only screen and (max-width: 1399px) {
+  .titles {
+    max-width: 375px;
+    margin-bottom: 80px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .titles {
+    max-width: 600px;
+    font-size: 20px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    margin: 20px;
+  }
 }

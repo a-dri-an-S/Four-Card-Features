@@ -3,10 +3,13 @@ import { data } from '../data';
 
 const CardLayout = () => {
     return (
-        <section>
-            {data.map((card, idx) => {
-                return <Card key={idx} card={card}/>
-            })}
+        <section className="cards">
+            <Card key={0} card={data[0]}/>
+            <div>
+                <Card key={1} card={data[1]}/>
+                <Card key={2} card={data[2]}/>
+            </div>
+            <Card key={3} card={data[3]}/>
         </section>
     );
 }
