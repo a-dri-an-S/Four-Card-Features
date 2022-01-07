@@ -105,6 +105,10 @@ code {
 }
 
 @media only screen and (min-width: 1400px) {
+  .App {
+    height: 100vh;
+  }
+
   .titles {
     max-width: 600px;
     font-size: 20px;

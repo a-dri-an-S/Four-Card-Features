@@ -5,7 +5,7 @@ const CardLayout = () => {
     return (
         <section className="cards">
             <Card key={0} card={data[0]}/>
-            <div>
+            <div className="cards-middle">
                 <Card key={1} card={data[1]}/>
                 <Card key={2} card={data[2]}/>
             </div>
