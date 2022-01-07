@@ -7,21 +7,25 @@ export const data = [
     {
         title: "Supervisor",
         info: "Monitors activity to identify project roadblocks",
-        image: supervisor
+        image: supervisor,
+        color: "cyan"
     },
     {
         title: "Team Builder",
         info: "Scans our talent network to create the optimal team for your project",
-        image: team
+        image: team,
+        color: "red"
     },
     {
         title: "Karma",
         info: "Regularly evaluates our talent to ensure quality",
-        image: karma
+        image: karma,
+        color: "orange"
     },
     {
         title: "Calculator",
         info: "Uses data from past projects to provide better delivery estimates",
-        image: calculator
+        image: calculator,
+        color: "blue"
     }
 ];

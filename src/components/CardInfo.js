@@ -1,8 +1,8 @@
 const CardInfo = ({ card }) => {
     return (
-        <div>
-            <h2>{card.title}</h2>
-            <p>{card.info}</p>
+        <div className="card-info">
+            <h2 className="card-title">{card.title}</h2>
+            <p className="card-txt">{card.info}</p>
         </div>
     );
 }

@@ -1,7 +1,7 @@
 const CardImage = ({ image, alt }) => {
     return (
-        <div>
-            <img src={image} alt={alt}/>
+        <div className="card-img">
+            <img className="card-img" src={image} alt={alt}/>
         </div>
     );
 }
